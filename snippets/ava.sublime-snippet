@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+import test from 'ava';
+import $1 from '$2';
+
+test('${3:title}', t => {
+	t.is($1(), '$4');
+});
+]]></content>
+    <tabTrigger>ava</tabTrigger>
+    <scope>source.js</scope>
+    <description>AVA</description>
+</snippet>

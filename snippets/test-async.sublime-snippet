@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+test('${1:title}', async t => {
+	$2
+});
+]]></content>
+    <tabTrigger>test-async</tabTrigger>
+    <scope>source.js</scope>
+    <description>Test - Async</description>
+</snippet>

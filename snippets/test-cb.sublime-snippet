@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+test.cb('${1:title}', t => {
+	$2
+});
+]]></content>
+    <tabTrigger>test-cb</tabTrigger>
+    <scope>source.js</scope>
+    <description>Test - Cb</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+test.serial('${1:title}', t => {
+	$2
+});
+]]></content>
+    <tabTrigger>test-serial</tabTrigger>
+    <scope>source.js</scope>
+    <description>Test - Serial</description>
+</snippet>
