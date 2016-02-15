@@ -22,6 +22,7 @@ Start writing a snippet's `tabTrigger` and then press <kbd>Tab ↹</kbd> to expa
 ## Related
 
 - [Atom plugin](https://github.com/sindresorhus/atom-ava)
+- [VS Code plugin](https://github.com/samverschueren/vscode-ava)
 
 
 ## License
