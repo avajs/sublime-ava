@@ -2,12 +2,10 @@
 
 > Snippets for [AVA](https://ava.li)
 
-<img src="screenshot.gif" width=800">
+<img src="screenshot.gif" width="800">
 
 
 ## Install
-
-**[NOT YET](https://github.com/wbond/package_control_channel/pull/5255)**
 
 Install `AVA` with [Package Control](https://packagecontrol.io) and restart Sublime.
 
