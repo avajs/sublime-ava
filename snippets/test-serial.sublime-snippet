@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-test.serial('${1:title}', t => {
+test.serial(${1/.+/'/}${1:title}${1/.+/', /}t => {
 	$2
 });
 ]]></content>

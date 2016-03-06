@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
 import test from 'ava';
-import $1 from '$2';
+import $1 from ${2:'${1/([A-Z])/-\l$1/g}'};
 
-test('${3:title}', t => {
+test(${3/.+/'/}${3:title}${3/.+/', /}t => {
 	t.is($1(), '$4');
 });
 ]]></content>
