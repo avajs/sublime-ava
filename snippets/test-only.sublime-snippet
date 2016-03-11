@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+test.only(${1/.+/'/}${1:title}${1/.+/', /}t => {
+	$2
+});
+]]></content>
+    <tabTrigger>test-only</tabTrigger>
+    <scope>source.js</scope>
+    <description>Test - Only</description>
+</snippet>
