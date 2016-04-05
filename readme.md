@@ -16,6 +16,8 @@ Included are some [snippets](snippets) useful for writing AVA tests.
 
 Start writing a snippet's `tabTrigger` and then press <kbd>Tab ↹</kbd> to expand the snippet.
 
+Snippets are fuzzy matched, so you can for example just write `tde` to get the `t.deepEqual()` snippet.
+
 
 ## Related
 
