@@ -12,7 +12,7 @@ Install `AVA` with [Package Control](https://packagecontrol.io) and restart Subl
 
 ## Snippets
 
-Included are some [snippets](snippets) useful for writing AVA tests.
+Included are some [snippets](snippets) & [completions](assertions.sublime-completions) useful for writing AVA tests.
 
 Start writing a snippet's `tabTrigger` and then press <kbd>Tab ↹</kbd> to expand the snippet.
 
@@ -27,4 +27,4 @@ Snippets are fuzzy matched, so you can for example just write `tde` to get the `
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
