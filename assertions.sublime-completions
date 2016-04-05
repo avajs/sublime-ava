@@ -7,11 +7,11 @@
 		"trigger": "t.fail",
 		"contents": "t.fail(${1/.+/'/}${1:message}${1/.+/'/});"
 	}, {
-		"trigger": "t.ok",
-		"contents": "t.ok(${1:value}${2/.+/, '/}${2:message}${2/.+/'/});"
+		"trigger": "t.truthy",
+		"contents": "t.truthy(${1:value}${2/.+/, '/}${2:message}${2/.+/'/});"
 	}, {
-		"trigger": "t.notOk",
-		"contents": "t.notOk(${1:value}${2/.+/, '/}${2:message}${2/.+/'/});"
+		"trigger": "t.falsy",
+		"contents": "t.falsy(${1:value}${2/.+/, '/}${2:message}${2/.+/'/});"
 	}, {
 		"trigger": "t.true",
 		"contents": "t.true(${1:value}${2/.+/, '/}${2:message}${2/.+/'/});"
@@ -25,11 +25,11 @@
 		"trigger": "t.not",
 		"contents": "t.not(${1:value}, ${2:expected}${3/.+/, '/}${3:message}${3/.+/'/});"
 	}, {
-		"trigger": "t.same",
-		"contents": "t.same(${1:value}, ${2:expected}${3/.+/, '/}${3:message}${3/.+/'/});"
+		"trigger": "t.deepEqual",
+		"contents": "t.deepEqual(${1:value}, ${2:expected}${3/.+/, '/}${3:message}${3/.+/'/});"
 	}, {
-		"trigger": "t.notSame",
-		"contents": "t.notSame(${1:value}, ${2:expected}${3/.+/, '/}${3:message}${3/.+/'/});"
+		"trigger": "t.notDeepEqual",
+		"contents": "t.notDeepEqual(${1:value}, ${2:expected}${3/.+/, '/}${3:message}${3/.+/'/});"
 	}, {
 		"trigger": "t.throws",
 		"contents": "t.throws(${1:function|promise}${2/.+/, '/}${2:message}${2/.+/'/});"
