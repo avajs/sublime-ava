@@ -21,7 +21,7 @@ Snippets are fuzzy matched, so you can for example just write `tde` to get the `
 
 ## Related
 
-- [Atom plugin](https://github.com/sindresorhus/atom-ava)
+- [Atom plugin](https://github.com/avajs/atom-ava)
 - [VS Code plugin](https://github.com/samverschueren/vscode-ava)
 
 
