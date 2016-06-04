@@ -40,6 +40,9 @@
 		"trigger": "t.regex",
 		"contents": "t.regex(${1:contents}, ${2:regex}${3/.+/, '/}${3:message}${3/.+/'/});"
 	}, {
+		"trigger": "t.notRegex",
+		"contents": "t.notRegex(${1:contents}, ${2:regex}${3/.+/, '/}${3:message}${3/.+/'/});"
+	}, {
 		"trigger": "t.ifError",
 		"contents": "t.ifError(${1:error}${2/.+/, '/}${2:message}${2/.+/'/});"
 	}]

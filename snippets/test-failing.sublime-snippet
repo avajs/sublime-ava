@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+test.failing(${1/.+/'/}${1:title}${1/.+/', /}t => {
+	$2
+});
+]]></content>
+    <tabTrigger>test-failing</tabTrigger>
+    <scope>source.js</scope>
+    <description>Test - Failing</description>
+</snippet>
