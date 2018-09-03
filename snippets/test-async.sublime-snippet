@@ -1,10 +1,10 @@
 <snippet>
-    <content><![CDATA[
-test(${1/.+/'/}${1:title}${1/.+/', /}async t => {
+	<content><![CDATA[
+test(${1:title}${1/.+/', /}async t => {
 	$2
 });
 ]]></content>
-    <tabTrigger>test-async</tabTrigger>
-    <scope>source.js</scope>
-    <description>Test - Async</description>
+	<tabTrigger>test-async</tabTrigger>
+	<scope>source.js</scope>
+	<description>Test - Async</description>
 </snippet>

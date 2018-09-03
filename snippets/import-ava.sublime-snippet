@@ -1,9 +1,9 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 import test from 'ava';
 
 ]]></content>
-    <tabTrigger>import-ava</tabTrigger>
-    <scope>source.js</scope>
-    <description>Import AVA</description>
+	<tabTrigger>import-ava</tabTrigger>
+	<scope>source.js</scope>
+	<description>Import AVA</description>
 </snippet>

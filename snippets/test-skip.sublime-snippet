@@ -1,10 +1,10 @@
 <snippet>
-    <content><![CDATA[
-test.skip(${1/.+/'/}${1:title}${1/.+/', /}t => {
+	<content><![CDATA[
+test.skip(${1:title}${1/.+/', /}t => {
 	$2
 });
 ]]></content>
-    <tabTrigger>test-skip</tabTrigger>
-    <scope>source.js</scope>
-    <description>Test - Skip</description>
+	<tabTrigger>test-skip</tabTrigger>
+	<scope>source.js</scope>
+	<description>Test - Skip</description>
 </snippet>

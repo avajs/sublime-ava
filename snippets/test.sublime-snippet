@@ -1,10 +1,10 @@
 <snippet>
-    <content><![CDATA[
-test(${1/.+/'/}${1:title}${1/.+/', /}t => {
+	<content><![CDATA[
+test(${1:title}${1/.+/', /}t => {
 	$2
 });
 ]]></content>
-    <tabTrigger>test</tabTrigger>
-    <scope>source.js</scope>
-    <description>Test</description>
+	<tabTrigger>test</tabTrigger>
+	<scope>source.js</scope>
+	<description>Test</description>
 </snippet>

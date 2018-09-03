@@ -1,10 +1,10 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 test.before(t => {
 	$1
 });
 ]]></content>
-    <tabTrigger>before-hook</tabTrigger>
-    <scope>source.js</scope>
-    <description>Before hook</description>
+	<tabTrigger>before-hook</tabTrigger>
+	<scope>source.js</scope>
+	<description>Before hook</description>
 </snippet>

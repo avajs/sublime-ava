@@ -1,8 +1,8 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 test.todo('${1:title}');
 ]]></content>
-    <tabTrigger>test-todo</tabTrigger>
-    <scope>source.js</scope>
-    <description>Test - Todo</description>
+	<tabTrigger>test-todo</tabTrigger>
+	<scope>source.js</scope>
+	<description>Test - Todo</description>
 </snippet>

@@ -1,10 +1,10 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 test.after(t => {
 	$1
 });
 ]]></content>
-    <tabTrigger>after-hook</tabTrigger>
-    <scope>source.js</scope>
-    <description>After hook</description>
+	<tabTrigger>after-hook</tabTrigger>
+	<scope>source.js</scope>
+	<description>After hook</description>
 </snippet>

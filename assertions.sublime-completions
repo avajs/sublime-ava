@@ -43,11 +43,19 @@
 		},
 		{
 			"trigger": "t.throws",
-			"contents": "t.throws(${1:function|promise}${2/.+/, '/}${2:message}${2/.+/'/});"
+			"contents": "t.throws(${1:function}${2/.+/, '/}${2:message}${2/.+/'/});"
 		},
 		{
 			"trigger": "t.notThrows",
-			"contents": "t.notThrows(${1:function|promise}${2/.+/, '/}${2:message}${2/.+/'/});"
+			"contents": "t.notThrows(${1:function}${2/.+/, '/}${2:message}${2/.+/'/});"
+		},
+		{
+			"trigger": "t.throwsAsync",
+			"contents": "t.throws(${1:promise|function}${2/.+/, '/}${2:message}${2/.+/'/});"
+		},
+		{
+			"trigger": "t.notThrowsAsync",
+			"contents": "t.notThrows(${1:promise|function}${2/.+/, '/}${2:message}${2/.+/'/});"
 		},
 		{
 			"trigger": "t.regex",
@@ -58,8 +66,8 @@
 			"contents": "t.notRegex(${1:contents}, ${2:regex}${3/.+/, '/}${3:message}${3/.+/'/});"
 		},
 		{
-			"trigger": "t.ifError",
-			"contents": "t.ifError(${1:error}${2/.+/, '/}${2:message}${2/.+/'/});"
+			"trigger": "t.snapshot",
+			"contents": "t.snapshot(${1:expected}${3/.+/, '/}${2:message}${2/.+/'/});"
 		}
 	]
 }
